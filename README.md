@@ -29,9 +29,9 @@ The configuration details of each machine may be found below.
 
 | Name        | Function | IP Address    | Operating System |
 |-------------|----------|---------------|------------------|
-| Jump Box    | Gateway  | 172.31.41.120 | Linux- Ubuntu    |
-| Webserver1  | Server   | 172.31.42.2   | Linux- Ubuntu    |
-| Webserver2  | Server   | 172.31.22.245 | Linux- Ubuntu    |
+| Jump Box    | Gateway  | 172.31.41.120 | Linux- AMI       |
+| Webserver1  | Server   | 172.31.42.2   | Linux- AMI       |
+| Webserver2  | Server   | 172.31.22.245 | Linux- AMI       |
 | ELK         | Server   | 172.31.37.23  | Linux- Ubuntu    |
 
 ### Access Policies
