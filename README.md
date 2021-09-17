@@ -50,7 +50,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box    |  Yes                |  Personal Home IP   |
 | Webserver1  |  No                 |  172.31.41.120      |
 | Webserver2  |  No                 |  172.31.41.120      |
-| ELK         |  Yes                |  172.31.41.120      |
+| ELK         |  No                 |  172.31.41.120      |
 
 
 ### Elk Configuration
