@@ -79,7 +79,7 @@ We have installed the following Beats on these machines:
 - Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat collects log events from the log files and locations that it monitored. An example is of what I expect to see is logs from MySQL.
+- Filebeat collects log events from the log files and locations that it monitored. An example of what I expect to see is logs from MySQL.
 - Metricbeat collects metrics from the operating system and services on the server. An example of what I expect to see is CPU usage logs.
 
 
