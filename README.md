@@ -62,7 +62,7 @@ The playbook implements the following tasks:
 - The second step of the playbook is to increase virtual memory with the command sysctl -w vm.max_map_count=262144
 - The third step of the playbook is to install pip with a present state
 - The fourth step of the playbook is to install docker python module with a present state
-- The fifth step of the playbook download and launch a docker web container with image sebp/elk:761, a started state, and published ports of 5601, 9200, and 5044
+- The fifth step of the playbook is to download and launch a docker web container with the image sebp/elk:761, a started state, and published ports of 5601, 9200, and 5044
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
