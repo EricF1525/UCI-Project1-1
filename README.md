@@ -58,11 +58,11 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because the process of configuring the ELK machine became faster, IT admins have time to focus on other aspects for success, and everything is configured the same way every time.
 
 The playbook implements the following tasks:
-- The first step of the playbook is to install docker.io with a present state
-- The second step of the playbook is to increase virtual memory with the command sysctl -w vm.max_map_count=262144
-- The third step of the playbook is to install pip with a present state
-- The fourth step of the playbook is to install docker python module with a present state
-- The fifth step of the playbook is to download and launch a docker web container with the image sebp/elk:761, a started state, and published ports of 5601, 9200, and 5044
+- The first step of the playbook is to install docker.io with a present state.
+- The second step of the playbook is to increase virtual memory with the command sysctl -w vm.max_map_count=262144.
+- The third step of the playbook is to install pip with a present state.
+- The fourth step of the playbook is to install docker python module with a present state.
+- The fifth step of the playbook is to download and launch a docker web container with the image sebp/elk:761, a started state, and published ports of 5601, 9200, and 5044.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
