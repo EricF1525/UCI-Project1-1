@@ -5,7 +5,7 @@ The files in this repository were used to configure the network depicted below.
 ![Network-diagram-project1](https://user-images.githubusercontent.com/85548017/133908232-20862a44-1791-4cac-9ad9-14c2b7662f12.png)
 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the filebeat-playbook.yaml file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on AWS. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the filebeat-playbook.yaml file may be used to install only certain pieces of it, such as Filebeat.
 
 - Description of the Topology
 - Access Policies
